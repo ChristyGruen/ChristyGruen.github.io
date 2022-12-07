@@ -1,0 +1,86 @@
+/* biostarter CSS stylesheet */
+
+/*HTML Elements*/
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(183, 221, 221);
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color:#333333;
+
+}
+
+header {
+    background-color: rgb(45, 61, 61) ;
+    
+}
+
+h1 {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: rgb(176, 206, 206);
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+}
+ 
+a {
+    color: rgb(6, 77, 77);
+}
+
+
+/*classes*/
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+
+
+/* ids */
+#main-bio {
+    float:left;
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 5%;
+   
+}
+
+#contact-info {
+    float:left;
+    line-height: 1.5;
+    margin-left: 5%;
+    width: 30%;
+
+}
+
+
+
+#figure {
+    margin: 20px;
+    position: relative;
+}
+
+#bio-name {
+    position: absolute;
+    top: 150px;
+    left: 5px;
+    /* z-index: 2; */
+    font-size: 20px;
+    color: rgb(176, 206, 206)
+}
+
+#bio-image {
+    float:left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    margin-right: 2%;
+    margin-left: 0;
+}

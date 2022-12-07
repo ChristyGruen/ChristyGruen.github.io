@@ -1,79 +1,43 @@
 <!DOCTYPE html>
-<html lang="en-us">
-    <style>
-        table, th, td {
-          border:1px solid darkgray; border-collapse: collapse;
-        }
-        </style>
 
+<!-- CSS Stylesheets with Relative Paths -->
+
+<html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style2.css">
 </head>
 
 <body>
-  <h1>Chris G</h1>
-  <figure>
-      <img src = 1662066999454.jpg alt = "kayak on the water" onclick = "window.open('AllCities%20VacationPy%202022-11-06.png','_blank');"/>
-      <strong><em><figcaption>Sturgeon Lake, MN</figcaption></em></strong>
-  </figure>
-  <h2>All about me</h2>
-  <p>blah blah blah</p>
-  <p>blah de blah de blah blah blah</p>
 
-  <hr> 
-  <h3>Social Media</h3>
-  <ul>
-    <li><a href="http://linkedin.com/" target="_blank">LinkedIn</a></li>
-    <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-  </ul>
-  
-  <table>
-    <thead>
-        <tr>
-            <th style = 'background-color:lightgrey' colspan = '3'> Favorite Things </th>
-        </tr>
-        <tr>
-            <th>Type  </th>
-            <th>Name </th>
-            <th>Comments </th>
-        </tr>        
-    </thead>
+  <header>
+    <h1>Student Bio</h1>
+  </header>
 
-    <tbody>
-        <tr>
-            <td>book</td>
-            <td>The Once and Future King</td>
-            <td>King Arthur</td>
-        </tr>
-        <tr>
-            <td>movie</td>
-            <td>Better off Dead</td>
-            <td>Franch fries, franch bread, franch dressing</td>
-        </tr>
-        
-        <tr>
-            <td>book</td>
-            <td>The Name of the Wind</td>
-            <td>magic, music, mystery</td>
-        
-        </tr> 
-        <tr>
-            <td>activity</td>
-            <td>kayaking</td>
-            <td>so many lakes</td>
-           
-        </tr> 
-    
-    </tbody>
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Chris Gruenhagen</h2>
+        <img id="bio-image" src="BerryBlep.jpg" alt="Chris Gruenhagen">
+        <!-- <img id="bio-image" src="https://picsum.photos/200/200" alt="Chris Gruenhagen"> -->
+      </section>
+      <p>Dedicated science professional with extensive experience in data analysis focused on medical device development, technical operations, and production. Passionate about utilizing product and customer data to support data-driven decision making. Motivated by teams of cross-functional experts working together to solve multi-faceted problems.</p>
+    </section>
 
-    <tfoot>
-        <tr >
-            <td colspan = '3'>end of favorite things</td>
-        </tr>
-    </tfoot>
+    <aside id="contact-info">
+      <h2 class = 'h2'>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:christygruen@gmail.com" target="_blank">christygruen@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="https://github.com/ChristyGruen" target="_blank">Chris_Gruen</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/chris-gruenhagen-9498299/" target="_blank">Chris Gruenhagen</a></li>
+      </ul>
+    </aside>
+  </main>
 
-</table>
 </body>
 
 </html>
