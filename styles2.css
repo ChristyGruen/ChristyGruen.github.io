@@ -121,7 +121,7 @@ h3 {
 
 .img1 {
     float:left;
-    width: 25%;
+    width: 40%;
     margin: 10px;
     margin-right: 2%;
     margin-left: 0;
@@ -137,10 +137,10 @@ h3 {
     border: solid rgb(176, 206, 206);
     
 }
-
+/* 
 .pad5 {
     margin-bottom: 5%;
-}
+} */
 
 .footer {
     float:start;
