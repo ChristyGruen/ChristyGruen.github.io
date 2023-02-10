@@ -46,7 +46,7 @@ h3 {
     }
     .navbar-brand {
         color: rgb(176, 206, 206);
-        font-size: 40px;
+        font-size: 25px;
         font-weight: bolder;
     }
     .navwhite {
@@ -70,7 +70,7 @@ h3 {
     }
     .navbar-brand {
         font-weight: bold;
-        font-size: 25px;
+        font-size: 50px;
     }
     
 }
